@@ -1,5 +1,8 @@
-#include <iostream> // output package
+// output package
+#include <iostream> 
 
 int main(){
-    std::cout << "Hello word"; // remember the semicolon
+    // remember the semicolon
+    std::cout << "Hello word\n"; 
+    return 0;
 }
