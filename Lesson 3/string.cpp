@@ -18,6 +18,15 @@ int main(){
     */
    std::cout << phrase.find("brown", 4);
 
+   /*
+   substr(start index, length to take after)
+   take the characters that are a subset of the original string
+   */
+   std::cout << "\n"<<phrase.substr(4, 5) << "\n";
+//    stroing substring
+    std::string phrasesub;
+    phrasesub = phrase.substr(4, 5);
+    std::cout << phrasesub << "\n";
 
     return 0;
 }
