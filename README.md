@@ -156,3 +156,20 @@ find is a function that takes in '<parameters>' in the brakets and from the para
 10
 ```
 - brown starts from index ``10``
+3. susbrt()
+```cpp
+/*
+   substr(start index, length to take after)
+   take the characters that are a subset of the original string
+   */
+   std::cout << "\n"<<phrase.substr(4, 5) << "\n";
+//    stroing substring
+    std::string phrasesub;
+    phrasesub = phrase.substr(4, 5);
+    std::cout << phrasesub << "\n";
+```
+**output**
+```
+Quick
+Quick
+```
