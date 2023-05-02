@@ -21,6 +21,11 @@ c++ runs code line by line from the top
 
 #### syntax
 ```c++
+// this is an inline comment 
+/*
+this is a multiline
+comment
+*/
 # include <iostream>
 
 int main(){
@@ -36,3 +41,30 @@ return 0 - because main begins with ```int``` it has to return a number
 1. simple shape 
 2. variables 
 3. data types
+
+'<Variables>' are names that store values for easy updating and modification
+- containers for values 
+```cpp
+#include <iostream>
+
+int main(){
+    // string variable 
+    std::string characterName = "Dan";
+    // whole numbers 
+    int characterAge;
+    characterAge = 24;
+
+    // creating a simple story
+    std::cout << "There was once a man named " << characterName<< std::endl;
+    std::cout << "He was " << characterAge << " years old\n";
+    std::cout << "He liked coding\n";
+    std::cout << "He didn\'t like photos\n";
+    return 0;
+}
+```
+- ``std::string`` creates a string data type to store a collection of characters
+- ``std::endl`` indicates the end of an output stream
+- ``<< variableName<<`` adds the value stored in a variable to the output stream
+
+**NOTE** '<strings>' in cpp are mutable 
+- they can change if redefined withing the code 
