@@ -72,17 +72,17 @@ int main(){
 
 '<Data type>' types of information that can be stored in cpp
 
-#### character
+##### character
 ```cpp
 char grade = 'A';
 // single utf8 character
 ``` 
-#### string 
+##### string 
 ```cpp
-std::string phrase = 'Giraffe';
+std::string phrase = "Giraffe";
 // collection of characters
 ```
-#### numbers 
+##### numbers 
 1. whole numbers 
 ```1, 2, 3, 4, 5, ...```
 ```cpp
@@ -97,8 +97,62 @@ int neg = -50;
 double gpa = 3.0;
 ```
 
-#### boolean 
+##### boolean 
 truth, false value 
 ```cpp
 bool isMale = false;
 ```
+
+### strings 
+1. newline 
+2. storing strings 
+3. string functions 
+
+#### newline
+```cpp 
+std::cout<<"This is a string witha terminating newline"<< std::endl;
+std::cout << "This is also a string with a newline char \n";
+```
+#### stroing string 
+string variable 
+```cpp
+std::string animal = "giraffe"
+```
+- creating with ```using```
+```cpp
+...
+using std::string 
+int main(){
+    string animal = "giraffe"
+    return 0;
+}
+```
+#### string functions 
+1. indexing 
+```cpp
+std::string phrase = "The quick brown fox jumped over the zebra grazing";
+
+    // sellecting by index
+    std::cout << phrase[0] << "\n";
+    // accessing q
+    std::cout << phrase[4] << "\n";
+    // modify q to Q
+    phrase[4] = 'Q';
+    std::cout << phrase << "\n";
+```
+2. .find()
+find is a function that takes in '<parameters>' in the brakets and from the parameters performs an action on the parent string 
+- this custom function is called a '<method>'
+```cpp
+/*
+    Using the find method 
+    string.find("string to be found", xy)
+    xy - index to start from
+    */
+   std::cout << phrase.find("brown", 4);
+```
+**output**
+```
+10
+```
+- brown starts from index ``10``
