@@ -68,3 +68,37 @@ int main(){
 
 **NOTE** '<strings>' in cpp are mutable 
 - they can change if redefined withing the code 
+
+
+'<Data type>' types of information that can be stored in cpp
+
+#### character
+```cpp
+char grade = 'A';
+// single utf8 character
+``` 
+#### string 
+```cpp
+std::string phrase = 'Giraffe';
+// collection of characters
+```
+#### numbers 
+1. whole numbers 
+```1, 2, 3, 4, 5, ...```
+```cpp
+int age = 50;
+int neg = -50;
+```
+2. decimal numbers  
+```1.4, 2.5 , 3.3, ...```
+- float '<not commonly used>'
+- double 
+```cpp
+double gpa = 3.0;
+```
+
+#### boolean 
+truth, false value 
+```cpp
+bool isMale = false;
+```
