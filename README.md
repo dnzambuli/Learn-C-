@@ -173,3 +173,5 @@ find is a function that takes in '<parameters>' in the brakets and from the para
 Quick
 Quick
 ```
+
+### Numbers
