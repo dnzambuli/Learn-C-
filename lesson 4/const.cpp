@@ -3,9 +3,9 @@
 int main(){
     // const keyword specifies the variable value can not be changed
     // ensures variables are only read only 
-    const double pi = 3.14159;
+    const double PI = 3.14159;
     double radius = 10;
-    double circumference = 2 * pi * radius;
+    double circumference = 2 * PI * radius;
     
     std::cout << circumference << " cm";
 
