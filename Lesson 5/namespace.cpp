@@ -11,6 +11,6 @@ namespace second{
 int main(){
     int x = 0;
 
-    std::cout << x;
+    std::cout << first::x;
     return 0;
 }
